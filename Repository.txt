@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-11-12T14:50:52+01:00
+
+====== Sviluppo repository ======
+Created giovedì 12 novembre 2015
+
+Puoi consultare, clonare ed estendere questi tre esempi di cakePH3 che sono serviti a raffinare questa macchina.
+
+Vai su http://github.com/pieroproietti
+
+sudo su
+cd [[/var/www/html]]
+git clone http://github.com/pieroproietti/budget-rest
+
+Buon divertimento

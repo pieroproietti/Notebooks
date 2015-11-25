@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-11-22T12:00:10+01:00
+
+[[http://github.com/pieroproietti/oficina/wiki|Versione on line]]
+
+====== Oficina ======
+
+Creato giovedì 12 novembre 2015
+
+Users: **artisan/evoluzione**
+
+Oficina è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella creazione, si è cercato di ottenere una versione adatta per lo sviluppo.
+
+===== Installazione =====
+
+Menu->Amministrazione->SystemBack
+
+=== Versione-2015-11-25 ===
+* installato vsftpd
+
+=== Versione-2015-11-24 ===
+* installato globale nw.js mediante: npm install nw -g
+* installato Messenger for Desktop
+* aggiunta dipendenza da nw in budget-app
+* spostata budget-app in /opt/artisan/develpment
+* aggiornati pacchetti
+
+=== Versione 2015-11-12b ===
+* eseguito upgrade con aggiornamento di dart-sdk e node5.1;
+* aggiornato manualmente atom;
+* installati con apm install: atom-beautify, language-babel,
+* installato gulp sudo npm install gulp -g
+* clonato buget-app ed eseguito npm install per i pacchetti locali.
+* impostato in .bashrc export NODE_ENV=development
+* installato firebug e react developer tools in firefox
+* installato firebug e react developer tools in chrome
+* rimosso http.proxy=http://10.30.0.46:8080 in git (per reimpostarlo immettere il comando: git config --global  http.proxy http://10.30.0.46:8080)
+
+=== Versione 2015-11-12a ===
+* Installato node5.0 e npm
+
+=== Versione 2015-11-12 ===
+* aggiunto Libreoffice 5 in italiano;
+* inserito in /etc/lightdm/lightdom.conf l'opzione autologin-user=artisan;
+
+===== Utilizzo come chiavetta USB =====
+
+Oficina può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
+Si può. ad esempio utilizzare il comune disco C: di Windows, aprire il navigatore nemo e, sulla sinistra appariranno i dispositivi disponibili. Cliccare sopra il dispositivo scelto e salvare il proprio lavoro o caricare il lavoro precedente.
+
+
+===== Rimasterizzazione =====
+
+Oficina può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Amministrazione->Systemback

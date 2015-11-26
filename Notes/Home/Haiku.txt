@@ -11,7 +11,7 @@ Haiku è un remix di Ubuntu  Wily, ottenuto a mezzo di SystemBack. Nella creazio
 Comunque c'è tutto, leggero e customizzato per scrivere poesie!
 
 ===== Installazione =====
-Menu->Amministrazione->SystemBack
+Menu->Strumenti di sistema->SystemBack
 
 ==== Versione 2015-11-26 ====
 * aggiunto git, bleachbit, systemback

@@ -7,17 +7,45 @@ Created Monday 21 September 2015
 
 ==== Basato su Proxmox 4 ====
 
-apt-get install cinnamon lightdm joe bleachbit zim iceweasel
-apt-get install virt-viewer geany
-apt-get install remmina gparted
 
-=== Utenti ===
+===== 1° fase da terminale =====
+Una volta installato Proxmox VE versione 4, riavviare la macchina e loggarsi come utente di root. A questo punto andiamo ad instalalre i pacchetti.
+
+apt-get update
+apt-get install joe 
+apt-get install lightdm
+apt-get install cinnamon 
+aptget install bleachbit
+apt-get install zim 
+apt-get install git
+apt get install iceweasel
+apt-get install spice-vdagentsudo 
+apt-get install virt-viewer
+apt-get install geany
+apt-get install gparted
+
+Configurazione della lingua
+dpkg-reconfigure locales
+selezionare it_IT.UTF8, premere OK e selezionare l'italiano per default.artisan
+
+**Aggiunta dell'utente**
 adduser artisan
 addgroup artisan sudo 
+
+===== 2° fase da interfaccia grafica =====
+Configurare lo sfondo, ed nstallare i programmi preferiti
+
+* editor atom (scaricare atom dal sito atom.io ed installarlo con  dpkg -i atom-amd64.deb)
+* google-chrome gpart	
+
+Chrome e Systemback per la replica.
 
 ==== Sfondi ====
 /usr/share/wallpapers/
 ws_Factorys_2560x1600.jpg
+
+=== Systemback ===
+Scaricare Systemback versione corrente da 
 
 
 

@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cholitos ======
+Created domenica 20 settembre 2015
+
+**Users: artisan/evoluzione**
+
+Cholitos è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella creazione, si è cercato di ottenere una versione leggera, adatta a qualsiasi computer relativamente recente ed utilizzabile per casa/studio. L'ultima aggiunta, compilatore ed ide geany sono stati introdotti per permettere una facle fruizione a livello di studio dei linguaggi di programmazione.
+
+===== Installazione =====
+Menu->Amministrazione->SystemBack
+
+===== Versione 2015-09-21 =====
+
+* aggiunto Libreoffice 5 in italiano;
+* inserito in [[/etc/lightdm/lightdom.conf]] l'opzione //autologin-user=artisan;//
+* aggiunto build-essentials e geany per la programmazione c++
+
+===== Utilizzo come chiavetta USB =====
+Cholitos può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
+Si può. ad esempio utilizzare il comune disco C: di Windows, aprire il navigatore nemo e, sulla sinistra appariranno i dispositivi disponibili. Cliccare sopra il dispositivo scelto e salvare il proprio lavoro o caricare il lavoro precedente.
+
+===== Utilizzo per la creazione di un boot server (Giantturtle) =====
+Se si è connessi ad internet, direttamente o attraverso proxy, si può utilizzare Cholitos per la trasformazione in Giantturtle server per il boot remoto dei Littlebird.
+Come procedere:
+* aprire una finesta di terminale
+* sudo su
+* cd [[/opt/eggs]]
+* avviare eggs
+* verranno proposte alcune domande, inerenti la configurazione del client, la configurazione della rete
+* introdotti nome del client, nome utente, passowrd utente, passord di root, dominio e dns si procede alla cova
+* la cosa consiste nella creazione di una subdirectory in [[/srv/eggs/littebird]] nella quale sarà replicato il sistema, nella configurazione di un initramfs per il boot da nfs, nella configurazione di nfs, apache2, dnsmasq per l'avvio della schiusa
+* terminato il processo, sarà possibile avviare le macchine collegate sulla stessa rete, semplicemente scegliendo avvia da rete al momento del boot della macchina.
+
+
+===== Rimasterizzazione =====
+Cholitos può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Amministrazione->Systemback
+

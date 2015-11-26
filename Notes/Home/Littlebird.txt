@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-11-26T09:59:26+01:00
+
+====== Littlebird ======
+Created giovedì 26 novembre 2015
+
+Users: **artisan/evoluzione**
+
+Giantturtle/Littlebird lavorano in simbiosi, la tartaruga gigante trasporta il piccolo uccellino. Il boot avviene via PXE da rete.
+Littlebird è completo di libreoffice e dispone della possibilitò di connettersi a qualsiasi host o di essere avviato da qualsiasi computer.
+
+===== Uso =====
+
+**Clonezilla**
+Avviare cliccando sull'icona, digitare la password di root e quindi immettere il comando
+
+artisan@littlebird#connect_to_hell
+
+Le immagini verranno salvate su giantturtle:/home/partimag
+
+**chntpw (Cambio/reset passoword Windows)**
+
+	* Avviare la macchina con littlebird
+	* montare il disco di windows (basta cliccare sul file manager, verrà richiesta la password). Il file viene montato in /media/artisan/nome-partizione
+	* aprire il terminale ed eseguire cd /media/artisan/
+	* ls per vedere il nome del disco montato
+	* cd /nomedisco/Windows/System32/config
+	* avviare chntpw con il comando cdsudo chntpw SAM -i
+	* resettare la password.
+
+**Remmina**
+Può essere utilizzato per connettersi ad altri pc, sia Linux che Windows
+
+**Iceweasel**
+Iceweasel, versione Debian di Firefox, è configurato senza proxy, al solo scopo di accedere ai server 10.26.106.100 e 10.26.106.101.
+Selezionate la macchina, cliccate console e, grazie a virt-viewer potete accedere ai vari host con grande facilità e chiarezza.
+
+
+Questo computer è stato generato con **Eggs**, sistema riproduttivo per pinguini, creato sin dal 2013 da **Piero Proietti**

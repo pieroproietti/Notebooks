@@ -13,7 +13,7 @@ NB; non tutto è così rigido e, Cholitos, è indicato anche per lo sviluppo in 
 
 * [[./Cholitos.txt|Cholitos]]
 * [[./Fabrica.txt|Fabrica]]
-* [[Littlebird]]
+* Littlebird
 * [[./Oficina.txt|Oficina]]
 * [[./Repository.txt|Repository]]
 

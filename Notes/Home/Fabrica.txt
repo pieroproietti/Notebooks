@@ -5,6 +5,14 @@ Creation-Date: 2015-09-21T09:32:27+02:00
 ====== Fabrica ======
 Created Monday 21 September 2015
 
+===== Installazione =====
+Apri una finestra di terminale e digita
+
+**sudo su**
+**fabrica-lvm-installer**
+
+**Importante:** L'installazione è semplice, ma cancella completamente il vostro disco fisso.
+
 ==== Basato su Proxmox 4 ====
 
 

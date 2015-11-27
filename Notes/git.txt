@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2015-11-27T09:08:05+01:00
+
+====== git ======
+Created venerdì 27 novembre 2015
+
+Configurazione
+
+Per visualizzare la configurazione attuale:
+* git config --global -l
+
+Per modificare l'utente di git
+
+
+===== Istruzioni per clonare i Notebooks di zim =====
+
+* git config --global -l
+* git config --global --add http.proxy http://10.30.0.46:8080
+* git clone http://github.com/pieroproietti/Notebooks
+
+
+

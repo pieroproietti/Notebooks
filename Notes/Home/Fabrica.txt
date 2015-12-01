@@ -8,11 +8,12 @@ Created Monday 21 September 2015
 ===== Installazione =====
 Aprire una finestra di terminale e digitare;
 
-**sudo fabrica-linstaller**
+**sudo fabrica-installer**
 
-**Importante:** L'installazione è semplice, ma cancella completamente il vostro disco fisso.
+**ATTENZIONE:** L'installazione è semplice, ma cancella completamente i dati del vostro disco fisso!
 
-==== Nota ====
+
+===== Note sugli aggiornamenti =====
 La configurazione di **apt** per l'aggiornamento del sistema è basata sulle repository di **Proxmox VE**:
 * deb http://download.proxmox.com/debian jessie pve-no-subscription
 * deb https://enterprise.proxmox.com/debian jessie pve-enterprise

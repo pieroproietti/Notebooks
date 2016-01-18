@@ -13,6 +13,11 @@ Comunque c'è tutto, leggero e customizzato per scrivere poesie!
 ===== Installazione =====
 Menu->Strumenti di sistema->SystemBack
 
+==== Versione 2016-01-18 ====
+* aggiornamento apt
+* aggiornamento systemback
+* installazione messenger
+
 ==== Versione 2015-11-26 ====
 * aggiunto git, bleachbit, systemback
 * creati i Notebooks di zim

@@ -16,8 +16,7 @@ Oficina è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella crea
 
 Menu->Amministrazione->SystemBack
 
-==== Versione 2015-12-05 ====
-* rimosso whatappfordesktop
+==== Versione 2015-12-28 ====
 * aggiornamento
 
 === Versione 2015-11-26 ===

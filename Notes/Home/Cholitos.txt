@@ -11,6 +11,12 @@ Cholitos è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella cre
 ===== Installazione =====
 Menu->Amministrazione->SystemBack
 
+==== Versione 2016-01-18 ====
+* aggiornamento apt
+* aggiornamento systemback
+* rimozione skype
+* aggiunto messenger
+
 ==== Versione 2015-11-26 ====
 * aggiunto git
 * aggiornati i Notebooks di zim

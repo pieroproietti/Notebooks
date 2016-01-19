@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-01-19T09:16:32-05:00
+
+====== Atom ======
+Created martedì 19 gennaio 2016
+
+Scaricare da https://atom.io
+apm install react
+
+
+===== Preparazione del progetto di lavoro =====
+Per creare l'applicazione abbiamo bisogno di electron, react e material-ui.
+
+Per cui:
+
+git clone  http://github.com/pieroproietti/electron-react-boilerplate fabrica-installer
+
+cd fabrica-installer
+npm install material-ui  react-tap-event-plugin react react-dom -s
+npm installm
+
+===== Avvio =====
+
+$ npm run hot-server
+$ npm run start-hot
+
+Sta impiegando un tempo terribilmente lungo...
+
+Modificato packages.json inserendo gli ulteriori packages richiesti per material-ui
+ 
+
+

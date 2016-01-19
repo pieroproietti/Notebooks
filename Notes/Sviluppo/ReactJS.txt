@@ -10,7 +10,7 @@ Presenta una sintassi particolare che permette di scrivere i componenti utilizza
 
 D'altra parte, grazie a Relay è possibile includere il codice che si occupa di reperire i dati da mostrare nell'interfaccia stessa. 
 
-Cosi possiamo avere un componente React incluso in un container Relay, dove, nella sezione query, andremo a scrivere una [[GraphQL]] che si occupa di reperire i dati e metterli a disposizione del componente React come props.
+Cosi possiamo avere un componente React incluso in un container Relay, dove, nella sezione query, andremo a scrivere una GraphQL che si occupa di reperire i dati e metterli a disposizione del componente React come props.
 
 (1) Componente React
 class HelloApp extends React.Component {
@@ -23,7 +23,7 @@ class HelloApp extends React.Component {
 }
 
 (2) - Container Relay
-[[HelloApp]] = Relay.createContainer(HelloApp, {
+HelloApp = Relay.createContainer(HelloApp, {
   fragments: {
 	greetings: () => Relay.QL `
 		fragment on Greetings: () => Relay.QL {
@@ -33,7 +33,7 @@ class HelloApp extends React.Component {
 }
 
 (3) - Route Relay
-Class [[HelloRoute]] extends Relay.Route {
+Class HelloRoute extends Relay.Route {
 	static routeName = 'Hello';
 	static queries = {
 		greetings {

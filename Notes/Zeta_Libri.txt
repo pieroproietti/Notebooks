@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-02-05T17:19:31+01:00
+
+====== Zeta Libri ======
+Created venerdì 05 febbraio 2016
+
+E' in corso di scrittura un libro " Il viaggio " che cerca di raccontare la storia di questi sistemi. 
+
+Potete consultare questo libro, sempre aggiornato, su https://www.gitbook.com/book/pieroproietti/ilviaggio/details. Inoltre, potete scaricarne una copia in locale o nel vostro lettore di eBook in vari formati:
+* [[https://www.gitbook.com/download/pdf/book/pieroproietti/ilviaggio|PDF]] (pc, etc)
+* [[https://www.gitbook.com/download/epub/book/pieroproietti/ilviaggio|ePub]] (Kobo, etc.)
+* [[https://www.gitbook.com/download/mobi/book/pieroproietti/ilviaggio|Mobi]] (Amazon kindle)
+
+E' inoltre presente, una copia de "[[~/Notebooks/ilviaggio.pdf|Il viaggio"]] in versione PDF all'interno di questo stesso aiuto, sempre consultabile anche senza connessione di rete.
+
+

@@ -10,14 +10,34 @@ Configurazione
 Per visualizzare la configurazione attuale:
 * git config --global -l
 
-Per modificare l'utente di git
+Per modificare l'utente di git, sono stati creati sue comandi:
+* git4piero
+* git4willo
 
+Per lavorare in ufficio, sotto proxy, occorre:
+* lanciare Google Chrome
+* identificarsi come utente sgd con sgd\nome.cognome
+* lanciare lo scrip git4office
+
+Per scaricare eo aggiornare i sorgenti, sono stati creati due script:
+* git4budget
+* git4genioweb
+
+Ad ogni modo è possibile =SEMPRE= utilizzare la normale procedura e cioè:
+* git clone http://github.com/pieroproetti/budget
+* git clone http://github.com/pieroproetti/genioweb
+
+===== Utilizzo di git per salvare i dati su github =====
+
+Da terminale, salvate le modifiche digitare
+* git add -A
+* git commit
+* git push 
+
+Dovrai crearti un account su github.com e ti dovrò concedere  i diritti  per salvare sulla attuale directory. Naturalemte, terminata la fase iniziale, sposteremo genioweb sul tuo account.
 
 ===== Istruzioni per clonare i Notebooks di zim =====
 
-* git config --global -l
-* git config --global --add http.proxy http://10.30.0.46:8080
-* git clone http://github.com/pieroproietti/Notebooks
-
-
+* cd 
+* git4notebooks
 

@@ -4,7 +4,7 @@ Creation-Date: 2015-11-22T12:00:10+01:00
 
 [[http://github.com/pieroproietti/oficina/wiki|Versione on line]]
 
-====== Oficina ======
+====== Oficina/Valentine ======
 
 Creato giovedì 12 novembre 2015
 
@@ -54,6 +54,10 @@ Menu->Amministrazione->SystemBack
 === Versione 2015-11-12 ===
 * aggiunto Libreoffice 5 in italiano;
 * inserito in /etc/lightdm/lightdom.conf l'opzione autologin-user=artisan;
+
+=== Versione 2016-04-16 ===
+* in data 14 febbraio 2016, la distribuzione è stata ricostruita da zero con lo scopo di sviluppare in php e è stata ridenominata Valentine;
+* in data 2016-04-16 la distribuzione Valentine è stata passata a php-7.0 e phpmyadmin è stato installato nella versione prelevata da git in /usr/share/phpmyadmin;
 
 ===== Utilizzo come chiavetta USB =====
 

@@ -5,14 +5,9 @@ Creation-Date: 2015-09-21T09:32:27+02:00
 ====== Fabrica ======
 Created Monday 21 September 2015
 
-===== Fabrica 2016-02-02 =====
-Aggiornamento generale
 
-===== 2016-01-18 =====
-Aggiornato Systemback
-
-===== Fabrica-2015-12-25 =====
-Aggiunte le esclusioni in rsync
+===== Fabrica 2016-04-27 =====
+Aggiornamento generale, passaggio a Proxmox 4.2
 
 ===== Installazione =====
 Aprire una finestra di terminale e digitare;
@@ -74,6 +69,5 @@ ws_Factorys_2560x1600.jpg
 
 === Systemback ===
 Scaricare Systemback versione corrente da 
-
 
 

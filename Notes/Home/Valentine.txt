@@ -16,28 +16,31 @@ Oficina è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella crea
 
 Menu->Amministrazione->SystemBack
 
-==== Versione 2016-01-18 ====
+==== Valentine7 2016-04-24 ====
+Passaggio a php-7.0, aggiornamento mysql, systemback, etc.
+
+==== Oficina 2016-01-18 ====
 * aggiornamento systemback
 
-==== Versione 2015-12-28 ====
+==== Oficina 2015-12-28 ====
 * aggiornamento
 
-=== Versione 2015-11-26 ===
+==== Oficina 2015-11-26 ====
 * configurati i Notebook di zim per lavorare con github.com
 * tolte le directory /opt/Notebook e [[/opt/artisan/developer]]
 
-=== Versione-2015-11-25 ===
+==== Oficina 2015-11-25 ====
 * installato vsftpd
 * spostata la cartella Notebooks in [[/opt/]] e creata repository per i testi di aiuto.
 
-=== Versione-2015-11-24 ===
+=== Oficina 2015-11-24 ===
 * installato globale nw.js mediante: npm install nw -g
 * installato Messenger for Desktop
 * aggiunta dipendenza da nw in budget-app
 * spostata budget-app in /opt/artisan/develpment
 * aggiornati pacchetti
 
-=== Versione 2015-11-12b ===
+=== Oficina 2015-11-12b ===
 * eseguito upgrade con aggiornamento di dart-sdk e node5.1;
 * aggiornato manualmente atom;
 * installati con apm install: atom-beautify, language-babel,
@@ -48,14 +51,14 @@ Menu->Amministrazione->SystemBack
 * installato firebug e react developer tools in chrome
 * rimosso http.proxy=http://10.30.0.46:8080 in git (per reimpostarlo immettere il comando: git config --global  http.proxy http://10.30.0.46:8080)
 
-=== Versione 2015-11-12a ===
+=== Oficina 2015-11-12a ===
 * Installato node5.0 e npm
 
-=== Versione 2015-11-12 ===
+=== Oficina 2015-11-12 ===
 * aggiunto Libreoffice 5 in italiano;
 * inserito in /etc/lightdm/lightdom.conf l'opzione autologin-user=artisan;
 
-=== Versione 2016-04-16 ===
+=== Oficina 2016-04-16 ===
 * in data 14 febbraio 2016, la distribuzione è stata ricostruita da zero con lo scopo di sviluppare in php e è stata ridenominata Valentine;
 * in data 2016-04-16 la distribuzione Valentine è stata passata a php-7.0 e phpmyadmin è stato installato nella versione prelevata da git in /usr/share/phpmyadmin;
 

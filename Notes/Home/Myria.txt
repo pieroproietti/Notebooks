@@ -8,17 +8,21 @@ Created venerdì 20 maggio 2016
 User: **artisan/evoluzione**
 
 Myria è un remix di Ubuntu Xenian 16.04, ottenuto a partire dal minicd installando cinnamonn 3, lightdm, ed i programmi di utilità. Nella creazione, si è cercato di ottenere una versione adatta per lo sviluppo in javascript con Meteor e build di applicazioni per Android.
-Per l'evenienza sono stati installati i pacchetti per oracle-java-jdk 7 ed 8:
+
+Sono stati aggiunti i pacchetti per oracle-java-jdk8:
 * sudo add-apt-repository -y ppa:webupd8team/java
 * sudo apt-get update
-* sudo apt-get install oracle-java7-installer oracle-java7-set-default
+* sudo apt-get install oracle-java8-installer oracle-java8-set-default
 
-android-studio via ppa
+ed android-studio via ppa
 * sudo add-apt-repository ppa:paolorotolo/android-studio
 * sudo apt-get update
 * sudo apt-get install android-studio
 
+Le directory ~.meteor ed ~.Android, vengono ri-create quando si richiede una applicazione Meteor o Android Studio. E' stato scelto di non salvare la home dell'utente per non appesantire eccessivamente la distro.
+
 Naturalmente la iso è stata ottenuta per mezzo di Systemback.
+
 
 ===== Installazione =====
 

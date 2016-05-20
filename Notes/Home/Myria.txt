@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-05-20T09:52:36+02:00
+
+====== Myria ======
+Created venerdì 20 maggio 2016
+
+User: **artisan/evoluzione**
+
+Myria è un remix di Ubuntu Xenian 16.04, ottenuto a partire dal minicd installando cinnamonn 3, lightdm, ed i programmi di utilità. Nella creazione, si è cercato di ottenere una versione adatta per lo sviluppo in javascript con Meteor e build di applicazioni per Android.
+Per l'evenienza sono stati installati i pacchetti per oracle-java-jdk 7 ed 8:
+* sudo add-apt-repository -y ppa:webupd8team/java
+* sudo apt-get update
+* sudo apt-get install oracle-java7-installer oracle-java7-set-default
+
+android-studio via ppa
+* sudo add-apt-repository ppa:paolorotolo/android-studio
+* sudo apt-get update
+* sudo apt-get install android-studio
+
+Naturalmente la iso è stata ottenuta per mezzo di Systemback.
+
+===== Installazione =====
+
+Menu->Amministrazione->SystemBack
+
+==== Myria-2016-05-20 ====
+Prima versione
+
+===== Utilizzo come chiavetta USB =====
+
+Myria può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
+Si può. ad esempio utilizzare il comune disco C: di Windows, aprire il navigatore nemo e, sulla sinistra appariranno i dispositivi disponibili. Cliccare sopra il dispositivo scelto e salvare il proprio lavoro o caricare il lavoro precedente.
+
+
+===== Rimasterizzazione =====
+
+Myria può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Amministrazione->Systemback

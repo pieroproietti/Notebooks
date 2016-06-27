@@ -18,8 +18,16 @@ Attualmente ne esistono due versione: Valentine e Valentine7, la differenza sta 
 
 Menu->Amministrazione->SystemBack
 
-==== Valentine7 2016-06-27 ====
+==== Valentine 2016-06-27 ====
+Versione con php 5:
 * aggiornamento ad 1.8 di atom;
+* aggiornamento systemback 2016-05-16
+* aggiornamento generale;
+
+==== Valentine7 2016-06-27 ====
+Versione con php 7:
+* aggiornamento ad 1.8 di atom;
+* aggiornamento systemback 2016-05-16
 * aggiornamento generale;
 
 ===== Utilizzo come chiavetta USB =====

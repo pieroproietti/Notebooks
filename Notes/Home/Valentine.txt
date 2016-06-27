@@ -10,57 +10,17 @@ Creato giovedì 12 novembre 2015
 
 User: **artisan/evoluzione**
 
-Oficina è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella creazione, si è cercato di ottenere una versione adatta per lo sviluppo.
+Valentine è un remix di Debian Jessie, ottenuto a mezzo di SystemBack. Nella creazione, si è cercato di ottenere una versione adatta per lo sviluppo.
+
+Attualmente ne esistono due versione: Valentine e Valentine7, la differenza sta nell'uso di php5 e php7 rispettivamente.
 
 ===== Installazione =====
 
 Menu->Amministrazione->SystemBack
 
-==== Valentine7 2016-04-24 ====
-Passaggio a php-7.0, aggiornamento mysql, systemback, etc.
-
-==== Oficina 2016-01-18 ====
-* aggiornamento systemback
-
-==== Oficina 2015-12-28 ====
-* aggiornamento
-
-==== Oficina 2015-11-26 ====
-* configurati i Notebook di zim per lavorare con github.com
-* tolte le directory /opt/Notebook e [[/opt/artisan/developer]]
-
-==== Oficina 2015-11-25 ====
-* installato vsftpd
-* spostata la cartella Notebooks in [[/opt/]] e creata repository per i testi di aiuto.
-
-=== Oficina 2015-11-24 ===
-* installato globale nw.js mediante: npm install nw -g
-* installato Messenger for Desktop
-* aggiunta dipendenza da nw in budget-app
-* spostata budget-app in /opt/artisan/develpment
-* aggiornati pacchetti
-
-=== Oficina 2015-11-12b ===
-* eseguito upgrade con aggiornamento di dart-sdk e node5.1;
-* aggiornato manualmente atom;
-* installati con apm install: atom-beautify, language-babel,
-* installato gulp sudo npm install gulp -g
-* clonato buget-app ed eseguito npm install per i pacchetti locali.
-* impostato in .bashrc export NODE_ENV=development
-* installato firebug e react developer tools in firefox
-* installato firebug e react developer tools in chrome
-* rimosso http.proxy=http://10.30.0.46:8080 in git (per reimpostarlo immettere il comando: git config --global  http.proxy http://10.30.0.46:8080)
-
-=== Oficina 2015-11-12a ===
-* Installato node5.0 e npm
-
-=== Oficina 2015-11-12 ===
-* aggiunto Libreoffice 5 in italiano;
-* inserito in /etc/lightdm/lightdom.conf l'opzione autologin-user=artisan;
-
-=== Oficina 2016-04-16 ===
-* in data 14 febbraio 2016, la distribuzione è stata ricostruita da zero con lo scopo di sviluppare in php e è stata ridenominata Valentine;
-* in data 2016-04-16 la distribuzione Valentine è stata passata a php-7.0 e phpmyadmin è stato installato nella versione prelevata da git in /usr/share/phpmyadmin;
+==== Valentine7 2016-06-27 ====
+* aggiornamento ad 1.8 di atom;
+* aggiornamento generale;
 
 ===== Utilizzo come chiavetta USB =====
 

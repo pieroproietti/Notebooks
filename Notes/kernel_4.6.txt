@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-07-12T18:42:50+02:00
+
+====== kernel 4.6 ======
+Created martedì 12 luglio 2016
+
+http://www.cyberciti.biz/faq/debian-ubuntu-building-installing-a-custom-linux-kernel/
+
+
+$ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
+
+$ sudo apt-get install kernel-package
+
+ $ wget https://www.kernel.org/pub/linux/kernel/v4.x/[[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz]]
+
+$ unxz [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz]]
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 00411886$ gpg --verify [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar]].sign
+
+$ tar xvf linux-4.6.tar
+$ ls
+$ cd linux-4.6
+$ ls
+
+$ cd linux-4.6
+$ cp /boot/config-$(uname -r) .config
+

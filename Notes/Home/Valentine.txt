@@ -18,6 +18,10 @@ Attualmente ne esistono due versione: Valentine e Valentine7, la differenza sta 
 
 Menu->Amministrazione->SystemBack
 
+Valentine7 2016-07-07
+installato kernel 4.6 con apt-get -t jessie-backports install linux-image-4.6.0-0 da backports
+
+
 ==== Valentine 2016-06-27 ====
 Versione con php 5:
 * aggiornamento ad 1.8 di atom;

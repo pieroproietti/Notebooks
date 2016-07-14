@@ -7,6 +7,12 @@ Created martedì 12 luglio 2016
 
 http://www.cyberciti.biz/faq/debian-ubuntu-building-installing-a-custom-linux-kernel/
 
+https://answers.launchpad.net/systemback/+question/278875
+
+
+CONFIG_AUFS_FS=m
+CONFImG_OVERLAY_FS=m
+
 
 $ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
 
@@ -15,7 +21,7 @@ $ sudo apt-get install kernel-package
  $ wget https://www.kernel.org/pub/linux/kernel/v4.x/[[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz]]
 
 $ unxz [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz]]
-$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 00411886$ gpg --verify [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar]].sign
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 0041886$ gpg --verify [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar]].sign
 
 $ tar xvf linux-4.6.tar
 $ ls
@@ -23,5 +29,13 @@ $ cd linux-4.6
 $ ls
 
 $ cd linux-4.6
+
+===== Configurazione =====
 $ cp /boot/config-$(uname -r) .config
+$ make menuconfig
+
+===== Compilazione =====
+
+$ make-kpkg clean
+$ fakeroot make-kpkg --initrd --revision=1.2.VALENTINE kernel_image kernel_headers -j 4
 

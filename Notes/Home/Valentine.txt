@@ -21,15 +21,22 @@ Menu->Amministrazione->SystemBack
 Valentine7 2016-07-07
 installato kernel 4.6 con apt-get -t jessie-backports install linux-image-4.6.0-0 da backports
 
+==== Valentine7 2016-07-15 ====
+Versione con php 7:
 
-==== Valentine 2016-06-27 ====
-Versione con php 5:
+Questa versione contiene l'ultima versione del kernel e dovrebbe funzionare con le schede ASMedia USB 3.0+3.1
+In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi istruzioni in ZIM) trovare la soluzione al driver sarà abbastanza veloce.
+
+* installazione di kernel 4.6.4 con aufs e overlayfs 
 * aggiornamento ad 1.8 di atom;
 * aggiornamento systemback 2016-05-16
 * aggiornamento generale;
 
-==== Valentine7 2016-06-27 ====
-Versione con php 7:
+
+
+==== Valentine 2016-06-27 ====
+
+Versione con php 5:
 * aggiornamento ad 1.8 di atom;
 * aggiornamento systemback 2016-05-16
 * aggiornamento generale;

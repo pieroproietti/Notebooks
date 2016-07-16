@@ -18,14 +18,11 @@ Attualmente ne esistono due versione: Valentine e Valentine7, la differenza sta 
 
 Menu->Amministrazione->SystemBack
 
-Valentine7 2016-07-07
-installato kernel 4.6 con apt-get -t jessie-backports install linux-image-4.6.0-0 da backports
+**Attenzione**: queste versioni contengono l'ultima versione del kernel 4.6.4 e dovrebbero funzionare con le schede ASMedia USB 3.0+3.1
+In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi istruzioni in ZIM) trovare la soluzione al driver sarà, in futuro, abbastanza veloce.
 
 ==== Valentine7 2016-07-15 ====
 Versione con php 7:
-
-Questa versione contiene l'ultima versione del kernel e dovrebbe funzionare con le schede ASMedia USB 3.0+3.1
-In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi istruzioni in ZIM) trovare la soluzione al driver sarà abbastanza veloce.
 
 * installazione di kernel 4.6.4 con aufs e overlayfs 
 * aggiornamento ad 1.8 di atom;
@@ -33,20 +30,20 @@ In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi is
 * aggiornamento generale;
 
 
-
-==== Valentine 2016-06-27 ====
-
+==== Valentine5 2016-07-16 ====
 Versione con php 5:
+
+* installazione di kernel 4.6.4 con aufs e overlayfs 
 * aggiornamento ad 1.8 di atom;
 * aggiornamento systemback 2016-05-16
 * aggiornamento generale;
 
 ===== Utilizzo come chiavetta USB =====
 
-Oficina può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
+Valentine può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
 Si può. ad esempio utilizzare il comune disco C: di Windows, aprire il navigatore nemo e, sulla sinistra appariranno i dispositivi disponibili. Cliccare sopra il dispositivo scelto e salvare il proprio lavoro o caricare il lavoro precedente.
 
 
 ===== Rimasterizzazione =====
 
-Oficina può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Amministrazione->Systemback
+Valentine può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Amministrazione->Systemback

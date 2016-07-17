@@ -21,15 +21,21 @@ $ sudo apt-get install kernel-package
 
 === Scarica il kernel ===
 $ mkdir src
-$ cd stc
+$ cd src
 $ wget https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz
 $ unxz [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar.xz]]
 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 0041886$ gpg --verify [[https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.6.4.tar.xz|linux-4.6.4.tar]].sign
-$ tar xvf linux-4.6.tar
+$ tar xvf linux-4.6.4.tar
 $ ls
 $ cd linux-4.6
 
-=== Patch del kernel con aufs 4 ===
+=== Scarica aufs4-standalone ===
+
+git clone https://github.com/sfjro/aufs4-standalone
+cd aufs4-standalon
+git checkout origin/aufs4.6
+
+=== Applica le patch del kernel con aufs 4 ===
 
 patch -p1 < ../aufs4-standalone/aufs4-base.patch
 patch -p1 < ../aufs4-standalone/aufs4-standalone.patch

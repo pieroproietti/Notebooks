@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-07-19T02:03:18+02:00
+
+====== Meteor ======
+Created martedì 19 luglio 2016
+
+== Installazione ==
+$ cd ~
+$ curl https://install.meteor.com|sh
+$ export LC_ALL=C
+
+== Creazione applicazione ==
+$ meteor create test
+$ cd test
+$ meteor npm install
+$ meteor run
+
+== Creazione applicazione ==
+
+

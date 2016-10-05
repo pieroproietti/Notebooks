@@ -6,8 +6,26 @@ Creation-Date: 2015-09-21T09:32:27+02:00
 Created Monday 21 September 2015
 
 
-===== Fabrica 2016-04-27 =====
-Aggiornamento generale, passaggio a Proxmox 4.2
+===== Fabrica 2016-10-05 =====
+Aggiornamento generale, passaggio a Proxmox 4.3 
+
+Released 27.09.2016: See Downloads
+
+* GUI improvements
+* new search (“ctrl-shift-f”)
+* vertical menus with groups and icons
+* double click to open VM/CT console
+* new status overview for host, VM and containers, signal colors for overloaded CPU, etc.
+* Task log window remembers its size
+* VM wizard proposes now optimal settings dependent to the selected operating system (for Linux the default is “virtio scsi disk” and "virtio net")
+* comprehensive reference documentation in html, pdf and epub format, including contextual help function on several places - based on asciiDoc
+* new disk management, including SMART monitoring and SSD wearout level display (for Intel, Sandisk and Samsung SSD).
+* based on Debian Jessie 8.6.0
+* Linux kernel 4.4.19
+* KVM/qemu 2.6.1
+* LXC: update to 2.0.4
+* many new and improved manual/help pages
+* countless bug fixes and package updates (for all details see bugtracker and GIT)
 
 ===== Installazione =====
 Aprire una finestra di terminale e digitare;

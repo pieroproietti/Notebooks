@@ -19,7 +19,35 @@ Attualmente ne esistono due versione: Valentine e Valentine7, la differenza sta 
 Menu->Amministrazione->SystemBack
 
 **Attenzione**: queste versioni contengono l'ultima versione del kernel 4.6.4 e dovrebbero funzionare con le schede ASMedia USB 3.0+3.1
-In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi istruzioni in ZIM) trovare la soluzione al driver sarà, in futuro, abbastanza veloce.
+In ogni caso, poichè è ora possibile ricompilare il kernel facilmente (vedi istruzioni in ZIM) trovare la soluzione ai driver sarà, in futuro, abbastanza veloce.
+
+===== Installazione woocommerce =====
+https://downloads.wordpress.org/release/it_IT/wordpress-4.6.1.zip
+Scompattare in [[/var/www/html]]
+rinominare secondo esigenza, esempio: kiri-dev
+modificare il proprietario della cartella [[/var/www/html/kiri-dev]] 
+cd [[/var/www/html]]
+chown [[www-data:www-data]] kiri-dev -R
+Creare un utente ed un database ad esso associato, esempio: kiri-dev
+Puntare il browser su localhost/kiri-dev per effettuare l'installazione.
+Effettuata l'installazione, aggiungere i plugin:
+
+* woocommerce
+* [[better-font-awesome]]
+* [[cookie-law-info]]
+* ogni altro necessario
+
+
+===== Scaricare sorgenti kiri per importazione =====
+mkdir Source
+cd Source
+git clone http://github.com/pieroproietti/kiri 
+mkdir Kirieleison 
+(copiare in Kirieleison i file anarti.xls, tablin..xls, tabsta.xls e tabmer.xls)
+cd kiri
+php composer.phar install
+cd console
+[[./import_all]]
 
 ==== Valentine-seven ====
 Versione con php 7:

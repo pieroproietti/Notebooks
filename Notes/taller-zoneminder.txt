@@ -1,0 +1,80 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-12-06T14:38:50+01:00
+
+====== taller-zoneminder ======
+Created martedì 06 dicembre 2016
+
+===== Compilazione zoneminder =====
+
+sudo apt-get install build-essential git devscripts
+
+mkdir work
+cd work
+mkdir work-zoneminder
+cd work-zoneminder
+git clone https://github.com/manupap1/ZoneMinder.git
+git fetch origin plugin_support:plugin_support
+git checkout plugin_support
+sudo apt-get install debhelper po-debconf dh-systemd autoconf automake quilt libphp-serialization-perl libgnutls28-dev libmysqlclient-dev libdbd-mysql-perl libdate-manip-perl libwww-perl libjpeg62-turbo-dev libpcre3-dev libavcodec-dev libavformat-dev libswscale-dev libavutil-dev libv4l-dev libbz2-dev libtool libsys-mmap-perl libnetpbm10-dev libavdevice-dev libdevice-serialport-perl libarchive-zip-perl libmime-lite-perl dh-autoreconf libvlccore-dev libvlc-dev libcurl4-openssl-dev libgcrypt20-dev libpolkit-gobject-1-dev libdbi-perl libnet-sftp-foreign-perl libexpect-perl libmime-tools-perl pkg-config libav-tools
+
+ln -s distros/debian8 debian
+
+dpkg-checkbuild
+
+
+dpkg-buildpackage
+
+cd ..
+
+=== Installazione libzoneminder ===
+
+sudo dpkg -i libzoneminder-dev_*_amd64.deb
+
+===== Compilazione OpenALPR =====
+
+mkdir work-openalpr
+git clone https://github.com/openalpr/openalpr.git
+cd openalpr
+cp -R distros/debian ./
+fakeroot debian/rules get-orig-source
+sudo apt-get install debhelper git cmake quilt libopencv-dev libtesseract-dev libtesseract-dev libleptonica-dev liblog4cplus-dev libcurl3-dev uuid-dev default-jdk
+
+dpkg-checkbuild
+
+dpkg-buildpackage
+
+cd ..
+
+=== Installazione openalpr ===
+
+sudo dpkg -i libopenalpr-dev_*_amd64.deb libopenalpr2_*_amd64.deb libopenalpr-data_*_all.deb
+
+cd ..
+
+===== Compilazione plugin =====
+mkdir work-plugin
+cd work-plugin
+git clone https://github.com/manupap1/libzoneminder-plugin-openalpr.git
+cd libzoneminder-plugin-openalpr
+cp -R distros/debian [[./]]
+
+sudo apt-get install debhelper quilt dh-autoreconf pkg-config libboost-program-options1.55-dev libopencv-dev libopencv-core-dev libopencv-imgproc-dev
+
+dpkg-checkbuild
+
+dpkg-buildpackage
+
+cd ..
+
+sudo apt-get install libavcodec56 libavdevice55 libavformat56 libavutil54 libbz2-1.0 libc6 libcurl3 libgcc1 libgcrypt20 libgnutls-deb0-28 libgnutls-openssl27 libjpeg62-turbo libmysqlclient18 libpcre3 libstdc++6 libswscale3 libvlc5 zlib1g debconf init-system-helpers perl libdevice-serialport-perl libimage-info-perl libjson-any-perl libsys-mmap-perl liburi-encode-perl libwww-perl libarchive-tar-perl libarchive-zip-perl libdate-manip-perl libdbi-perl libmodule-load-conditional-perl libmime-lite-perl libmime-tools-perl libnet-sftp-foreign-perl libphp-serialization-perl libav-tools rsyslog netpbm zip policykit-1 apache2 libapache2-mod-php5 php5 php5-mysql mysql-server
+
+sudo dpkg -i libzoneminder-perl_*_all.deb zoneminder-database_*_all.deb zoneminder-core_*_amd64.deb zoneminder-ui-base_*_amd64.deb zoneminder-ui-classic_*_all.deb libopenalpr2_*_amd64.deb libopenalpr-data_*_all.deb libzoneminder-plugin-openalpr_*_amd64.deb
+
+
+
+
+
+
+
+

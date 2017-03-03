@@ -1,0 +1,101 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-03-03T13:09:27+01:00
+
+====== wordpress ======
+Created venerdì 03 marzo 2017
+
+Appunti Wordpress
+
+Installazione dei dati per il test dei temi
+
+https://codex.wordpress.org/Theme_Unit_Test
+Scaricare i dati ed importarli
+
+Foto liberamente commerciabili
+www.pixabay.com  (immagini liberamente commerciabili)
+https://unsplash.com/
+
+Suoni / musica  liberamente commerciabili
+http://www.bensound.com/
+
+Plugin per il monitoraggio dell'impatto dei plugin sul sito
+https://it.wordpress.org/plugins/p3-profiler/ (plugin performance profiler)
+
+Costruzione di pagine
+Page Builder di Site Origin
+Site Origin widget bungle (Ulteriori widget )
+kadence themes toolkit (slider)
+
+Backup
+http://www.xcloner.com/ 
+https://it.wordpress.org/plugins/backwpup/
+https://it.wordpress.org/plugins/backup/
+
+SEO
+yoast
+
+Cache
+WP_supercache
+
+Immagini
+Imsanity
+wp-smush
+
+Font
+https://it.wordpress.org/plugins/wp-google-fonts/
+
+Page speed
+https://developers.google.com/speed/pagespeed/insights/
+
+Social network
+https://it.wordpress.org/plugins/addthis/
+
+Gestori contatti
+https://it.wordpress.org/plugins/contact-form-7/
+
+
+Creazione di uno scheletro di thema
+Il tema si usa per la customizzazione di WP, quindi si usano i plugin.
+
+Si può ottenere uno scheletro di tema dal sito
+http://underscores.me/
+
+
+Nella directory wp-content/themes/nome-thema/ sono i seguenti file principali che compongono le sezioni e le funzioni specifiche del tema:
+footer.pho = footer
+functions.php = solo php tutte funzioni
+header.php = header
+index.php = content
+page.php = pagina
+search.php = risultati della ricerca
+sidebar.php = sidebar
+simple.php
+
+Sono presenti, pure le seguenti directory, il cui nome è autoesplicativo
+inc = include del tema
+js = js
+language =
+layouts = content-sidebar.css sidebar-content.css
+template-parts =
+
+Customizzazione template e child theme
+
+Si possono aggiungere ulteriori css e js al template, si possono inoltre aggiungere ulteriori template di pagine, ad esempio, se si duplica page.php, e si ha cura di mettere la giusta intestazione /* Template name: pagina mmia */ , a questo punto, creando una nuova pagina nel frontend, si  potrà scegliere come template paginamia ed associarla alla pagina in costruzione.
+
+Functions.php è l'unico file solo php. 
+Function si modifica per customizzare.
+
+Lavorare con i  childTheme
+Dato che può risultare scomodo lavorare su un intero thema per la sola customizzazione, è possibile operare sui childTheme che, consentono di intervenire e conservare solo le nostre modifiche:
+
+Si crea la directoy in theme con il nome prescelto:
+
+in style.css si dichiara il tema genitore ed il path.
+In function.php si fa qualcosa di simile
+
+La procedura è ben descritta in https://codex.wordpress.org/it:Temi_Child
+
+esiste, inoltre, un plugin specifico.
+
+

@@ -12,23 +12,10 @@ Created domenica 11 settembre 2016
 * configurare con database kiri-dev, utente kiri-dev, password kiri-dev
 * configurtare utente: artisan, password kiri-dev (abilitare password debole)
 
-Installato prestashop e woocommerce, interessante articolo in https://canonicalized.com/prestashop-vs-woocommerce/
-
 installato vsftp abilitato per utenti locali, per ftp di wordprocess
 
 ip=192.168.3.71
 nm=255.255.255.0
 gw=192.168.3.1
 dns=192.168.3.2, 192.168.9.1
-
-anarti->products
-tablin->linea_marchio
-tabsta->codice_statistico_e_marchio
-tabmer->gruppo_sottogruppo_merceologico
-
-
-products
-categories
-tags
-attributes
 

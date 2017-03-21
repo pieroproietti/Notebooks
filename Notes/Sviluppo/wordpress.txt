@@ -14,7 +14,7 @@ Estrarre i dati nella home dell'utente, quindi, per portarli sotto la directory 
 
 mv wordpress [[/var/www/html/nome-sito]]
 cd [[/var/www/html]]
-chown [[www-data:www-data]] nome-sito -R
+chown www-data:www-data nome-sito -R
 
 copiare wp-config.example in wp-config.php ed aggiungere le informazioni di database, user e password
 

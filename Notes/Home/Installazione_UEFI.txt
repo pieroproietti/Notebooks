@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2017-03-21T17:04:28+01:00
+
+====== Installazione UEFI ======
+Created martedì 21 marzo 2017
+
+sudo apt-get install grub2-common grub-efi-amd64-bin grub-pc-bin
+
+INSTALLAZIONE della ISO Systemback sull'Hard Disk PC con UEFI:
+
+Avviate systemback... la procedura iniziale di scelta Nome, Utente, Password ecc è la stessa di sempre per Systemback, la differenza sta nella scelta delle partizioni:
+
+* Selezionare la partizione nella quale volete installare LINUX, e mettete come "mount point:"  / selezionate format e onfermate con la freccia verde.
+* Selezionate poi la partizione EFI (Di solito da circa 100MByte) se preferite potete prima usare GPARTED e cercate la partizione da circa 100MB, in FAT32 e come Flag:boot  e selezionate come "mount point:"  /boot/efi  ATTENZIONE A NON FLAGGARE "FORMAT", NON dovete formattare questa partizione!!! 
+* Per finire, selezionate "Install GRUB2 bootloader: " EFI
+* Fate NEXT ed inizierà l'installazione.

@@ -5,6 +5,8 @@ Creation-Date: 2016-07-12T18:42:50+02:00
 ====== kernel 4.6 ======
 Created martedì 12 luglio 2016
 
+
+
 http://www.cyberciti.biz/faq/debian-ubuntu-building-installing-a-custom-linux-kernel/
 
 https://answers.launchpad.net/systemback/+question/278875

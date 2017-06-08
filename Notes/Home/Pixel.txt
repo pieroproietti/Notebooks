@@ -9,18 +9,25 @@ Createto martedì 6 giugno 2017
 Pixel è un remix di Debian Raspian 386, ottenuto a mezzo di SystemBack. Nella creazione, si è cercato di lasciare la versione leggera, adatta a qualsiasi computer relativamente recente ed utilizzabile per casa/studio. 
 
 ===== Installazione =====
-Raspberry->Strumenti di sistema->SystemBack
+Menu->Strumenti di sistema->SystemBack,
+Ricordarsi di aggiungere il segno di spunta per caricare i dati utente.
 
-==== Versione 2017-06-07 ====
+Le scherama di aiuto di Zim si trovano nella home, se non le avete scaricate oppure per aggiornarle, basta il comando:
+
+git http://github.com/pieroproietti/Notebooks
+
+
+==== Versione 2017-06-08 ====
 - rdesktop
 - zim
 - bleachbit
+- virt-viewer
 - italiano per [[LibreOffice]]
 
 ===== Utilizzo come chiavetta USB =====
-Cholitos può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
+Pixel può essere utilizzato così com'è facendo il boot dalla chiavetta USB senza installare il sistema operativo. La limitazione principale di questa modalità è che occorre salvare il proprio lavoro su un dispositivo diverso, in quanto NON è possibile salvare il lavoro sulla chiavetta stessa.
 Si può. ad esempio utilizzare il comune disco C: di Windows, aprire il navigatore nemo e, sulla sinistra appariranno i dispositivi disponibili. Cliccare sopra il dispositivo scelto e salvare il proprio lavoro o caricare il lavoro precedente.
 
 ===== Rimasterizzazione =====
-Cholitos può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Str->Strumenti di Sistema->Systemback
+Pixel può essere tranquillamente rimasterizzato e distribuito come immagine iso. Menu->Strumenti di Sistema->Systemback
 

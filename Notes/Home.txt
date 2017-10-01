@@ -5,6 +5,9 @@ Creation-Date: 2015-11-26T09:57:29+01:00
 ====== Home ======
 Created giovedì 26 novembre 2015
 
+rm ~/.local/share/keyrings/login.keyring
+rm .config/google-chrome/ -rf
+
 Questa è la storia di tre versioni del sistema operativo Debian Jessie, modificate e ripensate in un'ottica pragmatica e evoluzionista.
 
 Ogni sistema ha il suo target, e così se Cholitos è indicato per sostituire il s.o. a casa un po' per tutti, Fabrica è un server di virualizzazione in grado di far girare più macchine virtuali e Oficina è indicato per lo sviluppo.
